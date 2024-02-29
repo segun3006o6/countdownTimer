@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px;
+  background: linear-gradient(to right, #ff6b6b, #5d9cec)
+}
+.container__1{
+  /* background-color: cadetblue; */
+  background: transparent;
+}
+.container__1 img{
+  border-radius: 20px;
+  width: 530px;
+}
+.container{
+  /* background-color: green; */
+  text-align: left;
+  margin-left: 15px;
+}
+.countdown{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+.count{
+  background: #000;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
